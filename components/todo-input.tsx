@@ -55,7 +55,7 @@ export function TodoInput({ onAdd }: TodoInputProps) {
           <Input
             value={value}
             onChange={(e) => setValue(e.target.value)}
-            placeholder="할 일을 입력하고 Enter를 누르세요"
+            placeholder="할 일을 입력하고 엔터를 누르세요~"
             aria-label="새 할 일"
           />
 
